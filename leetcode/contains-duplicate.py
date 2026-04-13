@@ -1,8 +1,6 @@
 # Name: Johnson Dinh
 # Time: 7:22
 # Language: Python3
-# Time Complexity: O(N)
-# Space Complexity: O(N)
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         if len(nums) == 0:
@@ -20,8 +18,8 @@ class Solution:
                     return True
 
         # Complexity Analysis
-        # Time Complexity: Iterating through `nums` array at most one time, assuming at least one lookup and at least one insertion, overall time complexity scales linearly with size of the input array
-        # Space Complexity Worst-case (`nums` array has no duplicates) is that `d` will end up storing all N elements as keys, therefore memory used scales linearly with input
+        # Time Complexity O(N): Iterating through `nums` array at most one time, assuming at least one lookup and at least one insertion, overall time complexity scales linearly with size of the input array
+        # Space Complexity O(N): Worst-case (`nums` array has no duplicates) is that `d` will end up storing all N elements as keys, therefore memory used scales linearly with input
         return False
 
 
@@ -39,6 +37,6 @@ class Solution:
             seen.add(num)
 
         # Complexity Analysis
-        # Time Complexity: Iterating through `nums` array at most one time, assuming at least one lookup and at least one insertion, overall time complexity scales linearly with size of the input array
-        # Space Complexity Worst-case (`nums` array has no duplicates) is that `d` will end up storing all N elements as keys, therefore memory used scales linearly with input
+        # Time Complexity O(N): Iterating through `nums` array at most one time, assuming at least one lookup and at least one insertion, overall time complexity scales linearly with size of the input array
+        # Space Complexity O(N): Worst-case (`nums` array has no duplicates) is that `d` will end up storing all N elements as keys, therefore memory used scales linearly with input
         return False
