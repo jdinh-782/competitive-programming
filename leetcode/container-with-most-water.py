@@ -1,5 +1,5 @@
 # Name: Johnson Dinh
-# Time: 
+# Time: 30:00
 # Language: Python3
 class Solution:
     def maxArea(self, height: List[int]) -> int:
