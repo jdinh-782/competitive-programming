@@ -36,7 +36,7 @@ class Solution:
             
         # Traverse all the way to the end. 
         # 'new_head' will always be the last node (e.g., 5)
-        new_head = self.reverseList(head.next)
+        new_head = self.reverseListRecursive(head.next)
         
         # As the call stack pops (unwinds), flip the pointer
         # Example: if head is 4, head.next is 5. 
